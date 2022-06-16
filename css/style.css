@@ -1,10 +1,17 @@
 
+.ms_font_size{
+    font-size: 50px;
+}
+
 .ms_box_number{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: darkgreen;
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
+    margin: 10px;
+    height: 210px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
