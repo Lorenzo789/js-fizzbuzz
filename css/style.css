@@ -1,6 +1,11 @@
 
+body{
+    background-color: LightSeaGreen;
+}
+
 .ms_font_size{
     font-size: 50px;
+    color: black;
 }
 
 .ms_box_number{
@@ -14,4 +19,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.ms_box_fizz{
+    background-color: DarkSlateBlue;
+    color: white;
+}
+
+.ms_box_buzz{
+    background-color: DarkSeaGreen;
+    color: white;
+}
+
+.ms_box_buzz_fizz{
+    background-color: Teal;
+    color: white;
 }

@@ -25,22 +25,31 @@ for (let index = 1; index <= 100; index++) {
     if ((index % 5 == 0) && (index % 3 == 0)) {
 
         console.log('fizzbuzzz');
-        boxNumber.classList.add('ms_box_number');
+
+        boxNumber.classList.add('ms_box_number' , 'ms_box_buzz_fizz');
+
         boxNumber.innerText = 'fizzbuzz';
+
         buzzFizzRow.append(boxNumber);
 
     } else if (index % 5 == 0) {
 
         console.log('buzz');
-        boxNumber.classList.add('ms_box_number');
+
+        boxNumber.classList.add('ms_box_number' , 'ms_box_buzz');
+
         boxNumber.innerText = 'buzz';
+
         buzzFizzRow.append(boxNumber);
 
     } else if (index % 3 == 0) {
 
         console.log('fizz');
-        boxNumber.classList.add('ms_box_number');
+
+        boxNumber.classList.add('ms_box_number' , 'ms_box_fizz');
+
         boxNumber.innerText = 'fizz';
+
         buzzFizzRow.append(boxNumber);
 
     } else {
