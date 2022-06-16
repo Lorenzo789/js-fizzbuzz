@@ -1,0 +1,10 @@
+
+.ms_box_number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkgreen;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -6,8 +6,8 @@ const buzzFizzRow = document.getElementById('number-row');
 for (let index = 1; index <= 100; index++) {
 
     const boxNumber = document.createElement('div');
-
-
+    boxNumber.innerText = index;
+    //buzzFizzRow.append(boxNumber);
 
 
 
