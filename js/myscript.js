@@ -14,12 +14,6 @@ for (let index = 1; index <= 100; index++) {
     //CHANGE INNER TEXT
     boxNumber.innerText = index;
 
-    //INSERT boxNumber 
-    buzzFizzRow.append(boxNumber);
-
-
-
-
 
     //CONDITION
     if ((index % 5 == 0) && (index % 3 == 0)) {
@@ -30,8 +24,6 @@ for (let index = 1; index <= 100; index++) {
 
         boxNumber.innerText = 'fizzbuzz';
 
-        buzzFizzRow.append(boxNumber);
-
     } else if (index % 5 == 0) {
 
         console.log('buzz');
@@ -39,8 +31,6 @@ for (let index = 1; index <= 100; index++) {
         boxNumber.classList.add('ms_box_number' , 'ms_box_buzz');
 
         boxNumber.innerText = 'buzz';
-
-        buzzFizzRow.append(boxNumber);
 
     } else if (index % 3 == 0) {
 
@@ -50,14 +40,14 @@ for (let index = 1; index <= 100; index++) {
 
         boxNumber.innerText = 'fizz';
 
-        buzzFizzRow.append(boxNumber);
-
     } else {
 
         console.log(index);
 
     }
 
-
+    buzzFizzRow.append(boxNumber);
+    // MEGLIO AGGIUNGERLO ALLA FINE, COSI NON E VISIBILE FINO A QUANDO
+    // NON E COME VOGLIO IO
 
 };
